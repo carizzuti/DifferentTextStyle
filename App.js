@@ -28,88 +28,75 @@ import {
 const App = () => {
   return (
     <SafeAreaView>
-          <Text style={[style.style1]}>Text Style 1</Text>
-          <Text style={[style.style2]}>Text Style 2</Text>
-          <Text style={[style.style3]}>Text Style 3</Text>
-          <Text style={[style.style4]}>Text Style 4</Text>
-          <Text style={[style.style5]}>Text Style 5</Text>
-          <Text style={[style.style6]}>Text Style 6</Text>
-          <Text style={[style.style7]}>Text Style 7</Text>
-          <Text style={[style.style8]}>Text Style 8</Text>
-          <Text style={[style.style9]}>Text Style 9</Text>
-          <Text style={[style.style10]}>Text Style 10</Text>          
+          <Text style={[style.style1]}>This is text example</Text>
+          <Text style={[style.style2]}>This is text example</Text>
+          <Text style={[style.style3]}>This is text example</Text>
+          <Text style={[style.style4]}>This is text example</Text>
+          <Text style={[style.style5]}>This is text example</Text>
+          <Text style={[style.style6]}>This is text example</Text>
+          <Text style={[style.style7]}>This is text example</Text>
+          <Text style={[style.style8]}>This is text example</Text>
+          <Text style={[style.style9]}>This is text example</Text>
+          <Text style={[style.style10]}>This is text example</Text>          
     </SafeAreaView>
   );
 };
 
 const style = {
   style1: {
-    color: "#ff0000",
-    fontSize: 24,
-    lineHeight: 50
+    color: "#FFDB58",
+    marginTop: 12,
+    marginLeft: 12
   },
   style2: {
     color: "#00ff00",
     fontSize: 24,
-    fontStyle: "italic",
-    lineHeight: 50
+    marginLeft: 12,
+    marginTop: 12
   },
   style3: {
-    color: "#0000ff",
-    fontSize: 24,
-    letterSpacing: 12,
-    lineHeight: 50
+    fontWeight: "bold",
+    marginTop: 12,
+    marginLeft: 12
   },
   style4: {
-    color: "#ffff00",
-    fontSize: 24,
-    textShadowRadius: 10,
-    lineHeight: 50
+    fontStyle: "italic",
+    marginTop: 12,
+    marginLeft: 12
   },
   style5: {
-    color: "#ff00ff",
-    fontSize: 24,
-    textTransform: "uppercase",
-    lineHeight: 50
+    textDecorationLine: "underline",
+    marginTop: 12,
+    marginLeft: 12
   },
   style6: {
-    color: "#00ffff",
-    fontSize: 24,
-    textDecorationLine: "underline",
-    fontWeight: "bold",
-    lineHeight: 50
+    lineHeight: 50,
+    marginLeft: 12
   },
   style7: {
-    fontSize: 24,
-    textShadowColor: "#ff0000",
-    textShadowRadius: 5,
-    letterSpacing: 4,
-    textDecorationLine: "underline line-through",
-    lineHeight: 50
+    color: "#FFDB58",
+    fontStyle: "italic",
+    fontWeight: "bold",
+    marginTop: 12,
+    marginLeft: 12
   },
   style8: {
-    color: "#f75e25",
-    fontSize: 24,
-    textTransform: "lowercase",
-    fontWeight: "bold",
-    fontStyle: "italic",
-    lineHeight: 50
+    marginTop: 12,
+    marginLeft: 50
   },
   style9: {
-    color: "#6a5f31",
-    fontSize: 24,
-    textShadowColor: "#00ffff",
-    textShadowRadius: 10,
-    fontWeight: "bold",
-    lineHeight: 50
+    backgroundColor: "#FFF01F",
+    marginLeft: 12,
+    marginTop: 12,
+    alignSelf: "flex-start"
   },
   style10: {
-    color: "#287223",
-    fontSize: 24,
-    textDecorationLine: "line-through",
-    fontStyle: "italic",
-    textTransform: "capitalize",
-    lineHeight: 50
+    backgroundColor: "#ffffbf",
+    color: "#8B8000",
+    marginLeft: 12,
+    alignSelf: "flex-start",
+    marginTop: 12,
+    opacity: .5
   },
 }
 
